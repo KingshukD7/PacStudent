@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
         private void Start()
         {
             audioSource = GetComponent<AudioSource>();
+            PlayMusic();
         }
     
         public void PlayMusic()
